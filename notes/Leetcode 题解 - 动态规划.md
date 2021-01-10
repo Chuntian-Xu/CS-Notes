@@ -667,7 +667,7 @@ public int wiggleMaxLength(int[] nums) {
 ```java
 // W 为背包总体积
 // N 为物品数量
-// weights 数组存储 N 个物品的重量
+// weights 数组存储 N 个物品的体积
 // values 数组存储 N 个物品的价值
 public int knapsack(int W, int N, int[] weights, int[] values) {
     int[][] dp = new int[N + 1][W + 1];
